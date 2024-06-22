@@ -5,6 +5,6 @@ rm -rf builddir && \
 meson setup builddir && \
 meson compile -C builddir && \
 # Set memory limit to 10MiB
-ulimit -v 10240 && \
+ulimit -v 102400 && \
 # Run the compiled program with root privileges
 sudo ./builddir/src/ethernetcap
