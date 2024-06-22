@@ -1,5 +1,5 @@
-#include "view/interfaceListView.hpp"
+#include "views/mainMenuView.hpp"
 int main() {
-    auto adapter_list_view = create_interface_list_component();
+    mainMenuView();
     return 0;
 }
