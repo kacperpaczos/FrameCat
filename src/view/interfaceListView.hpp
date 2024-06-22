@@ -2,4 +2,4 @@
 
 #include <ftxui/component/component.hpp>
 
-ftxui::Component create_interface_list_component();
+std::string create_interface_list_component();
