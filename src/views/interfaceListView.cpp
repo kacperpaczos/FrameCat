@@ -23,6 +23,7 @@ std::string create_interface_list_component() {
     interactiveScreen.Loop(interfaceRenderer | ftxui::CatchEvent([&](const ftxui::Event& event) {
         if (event == ftxui::Event::Return) {
             interactiveScreen.ExitLoopClosure()();
+            capture_packets(networkInterfaces[selectedIndex]);
             return true;
         }
         return false;
