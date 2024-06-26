@@ -7,5 +7,7 @@ executable('ethernetcap',
   'components/ui/mainMenu.cpp',
   'views/interfaceListView.cpp',
   'views/mainMenuView.cpp',
+  'components/ui/viewManager.cpp',
+  'components/backend/networkInterfaces.cpp',
   dependencies: [dependency('pcap'), dependency('ftxui')]
 )

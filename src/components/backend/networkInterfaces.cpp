@@ -1,7 +1,7 @@
-#include "networkInterfaces.hpp"
+#include "../../../include/components/backend/networkInterfaces.hpp"
 #include <pcap.h>
 
-std::vector<std::string> get_network_interfaces() {
+std::vector<std::string> getEthernetAdapters() {
     pcap_if_t *alldevs;
     char errbuf[PCAP_ERRBUF_SIZE];
     std::vector<std::string> interfaces;

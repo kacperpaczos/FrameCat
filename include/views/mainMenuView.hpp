@@ -2,4 +2,4 @@
 
 #include <ftxui/component/component.hpp>
 
-bool mainMenuView();
+ftxui::Component mainMenuView();

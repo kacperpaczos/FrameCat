@@ -1,4 +1,4 @@
-#include "ethernetAdapterList.hpp"
+#include "../../../include/components/ui/ethernetAdapterList.hpp"
 #include <pcap.h>
 #include <ftxui/component/component.hpp>
 #include <ftxui/component/screen_interactive.hpp>
